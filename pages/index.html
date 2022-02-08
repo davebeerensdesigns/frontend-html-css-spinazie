@@ -2,9 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Volkorenlasagne met spinazie en linzen</title>
 </head>
 <body>
+<div id="page">
+    <main id="main" role="main">
+        <article id="recipe">
+            <header id="masthead" role="banner">
+                <h1>Volkorenlasagne met spinazie en linzen</h1>
+                <p>Met makkelijke aanpassingen mak je zet je zo een gezonde lasagne op tafel.</p>
+                <img src="../assets/lasagne-spinazie.jpg" width="800" height="auto" alt="Afbeelding van Volkorenlasagne">
+            </header>
+            <div id="content">
+                <section id="ingredient-list">
+                    <h2>Ingredienten</h2>
+                    <ul>
+                        <li>1 middelgrote ui</li>
+                        <li>2 tenen knoflook</li>
+                        <li>400 g champignons</li>
+                        <li>2 el milde olijfolie</li>
+                        <li>750 g diepvries fijngesneden spinazie</li>
+                        <li>2 el gedroogde Italiaanse kruiden</li>
+                        <li>200 g zuivelspread light</li>
+                        <li>400 g linzen in blik</li>
+                        <li>12 volkoren lasagne bladen</li>
+                        <li>150 g geraspte 30+ kaas</li>
+                    </ul>
+                    <h3>Uitgelichte ingredienten</h3>
+                    <figure>
+                        <img src="../assets/spinazie.png" alt="Spinazie" width="200" height="auto">
+                        <figcaption>Spinazie is erg gezond</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../assets/kaas.jpeg" alt="Kaas" width="200" height="auto">
+                        <figcaption>Kaas is vooral erg lekker</figcaption>
+                    </figure>
+                    <p>Klik <a href="voedingswaarden.html" title="Voedingswaarden">hier</a> voor de voedingswaarden.</p>
+                </section>
+                <section id="preparation">
+                    <h2>Bereiden</h2>
+                    <ol>
+                        <li>Verwarm de oven voor op 180 °C. Snijd de volgende ingredienten:
+                            <ul>
+                                <li>Snipper de ui.</li>
+                                <li>Snijd de knoflook fijn.</li>
+                                <li>Snijd de champignons in plakjes.</li>
+                            </ul>
+                        </li>
+                        <li>Verhit de olie in een hapjespan en bak de ui en champignons 3 min. op hoog vuur. Voeg de knoflook, spinazie en Italiaanse kruiden toe en verwarm 7 min. op middelhoog vuur mee. Roer regelmatig.</li>
+                        <li>Voeg de zuivelspread toe en verwarm 1 min. mee. Breng de groentesaus op smaak met peper en eventueel zout. Doe ondertussen de linzen in een vergiet en spoel af onder koud stromend water. Laat uitlekken en voeg toe aan de groentesaus.</li>
+                        <li>Schep 2 lepels groentesaus op de bodem van de ovenschaal. Bedek achtereenvolgens met ⅓ van de lasagnebladen, ⅓ van de rest van de groentesaus en de kaas. Herhaal dit nog 2 keer en eindig met de rest van de kaas. Breng op smaak met peper.</li>
+                        <li>Bak de lasagne in het midden van de oven in ca. 40 min. gaar. Dek af met aluminiumfolie als de lasagne te donker wordt.</li>
+                    </ol>
+                    <p><b>Bereidingstip:</b> Je kunt de lasagne 1 dag van tevoren maken tot en met het afbakken in de oven. Bewaar afgedekt in de koelkast en laat tijdens het voorverwarmen van de oven op kamertemperatuur komen.</p>
+                </section>
+                <footer>
+                    <h2>Bedankt voor het lezen van dit recept. Laat ons weten wat je er van vind!</h2>
+                    <form onsubmit="javascript:void(0)">
+                        <fieldset>
+                            <legend>Gegevens</legend>
+                            <p class="form-group">
+                                <label class="form-label" for="name">Naam: </label>
+                                <input type="text" id="name" class="form-field" placeholder="typ hier jouw naam">
+                            </p>
+                            <p class="form-group">
+                                <label class="form-label" for="email">Email: </label>
+                                <input type="email" id="email" class="form-field" placeholder="typ hier jouw e-mailadres">
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Jouw review</legend>
+                            <p class="form-group">
+                                <label class="form-label" for="recipe-found">Hoe heb je dit recept gevonden: </label>
+                                <select id="recipe-found" class="form-select">
+                                    <option value="">--Kies een optie--</option>
+                                    <option value="google">Via google</option>
+                                    <option value="mondreclame">Via mond op mond</option>
+                                </select>
+                            </p>
+                            <div class="form-group">
+                                <p class="form-label">Zou je dit recept willen uitproberen?</p>
+                                <span class="form-radio-item">
+                                    <input type="radio" name="try-no" id="try-no" class="form-radio">
+                                    <label class="radio-label" for="try-no">Nee</label>
+                                </span>
+                                <span class="form-radio-item">
+                                    <input type="radio" name="try-yes" id="try-yes" class="form-radio">
+                                    <label class="radio-label" for="try-yes">Ja</label>
+                                </span>
+                                <span class="form-radio-item">
+                                    <input type="radio" name="try-maybe" id="try-maybe" class="form-radio">
+                                    <label class="radio-label" for="try-maybe">Mischien</label>
+                                </span>
+                            </div>
+                            <p class="form-group">
+                                <label class="form-label" for="remarks">Opmerkingen:</label><br>
+                                <textarea name="remarks" cols=50" rows="5" id="remarks" class="form-field" placeholder="Wat vond je van het recept?"></textarea>
+                            </p>
+                            <p class="form-group">
+                                <input type="checkbox" name="newsletter" id="newsletter" class="field-checkbox" checked>
+                                <label class="checkbox-label" for="newsletter">Schrijf me in voor de nieuwsbrief</label><br>
+                            </p>
+                            <button class="button" type="submit">Versturen</button>
+                        </fieldset>
+                    </form>
+                </footer>
+            </div>
+        </article>
+    </main>
+</div>
 
 </body>
 </html>
